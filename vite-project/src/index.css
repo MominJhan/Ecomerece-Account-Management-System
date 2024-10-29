@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+    color: #4b4b8f;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form input {
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-color: #f9f9f9;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .signup-form input:focus {
+    border-color: #7f7fff;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  .signup-form button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .signup-form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 16px rgba(0, 123, 255, 0.5);
+  }
+  
+  .signup-form p {
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .signin-link {
+    color: #6e8efb;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signin-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 400px) {
+    .signup-container {
+      width: 90%;
+      padding: 30px;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    .signup-form input, 
+    .signup-form button {
+      font-size: 0.9rem;
+    }
+  }
+  
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3); /* Same gradient as SignUp */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+    color: #4b4b8f;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-color: #f9f9f9;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .login-form input:focus {
+    border-color: #7f7fff;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  .login-form button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 16px rgba(0, 123, 255, 0.5);
+  }
+  
+  @media (max-width: 400px) {
+    .login-container {
+      width: 90%;
+      padding: 30px;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    .login-form input, 
+    .login-form button {
+      font-size: 0.9rem;
+    }
+  }
+  
+
+
+  /* CommonDashboard.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Elegant font */
+  background-color: #e9ecef; /* Light gray background */
+  color: #495057; /* Dark gray text */
+  height: 100vh; /* Full height */
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100vh; /* Full height */
+  width: 100vw; /* Full width */
+}
+
+.sidebar {
+  width: 250px; /* Width of the sidebar */
+  background-color: #343a40; /* Dark sidebar color */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem; /* Increased font size */
+  text-align: center; /* Center the header */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+}
+
+.sidebar a {
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-size: 1.1rem; /* Increased font size */
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: block; /* Block for full width */
+}
+
+.sidebar a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+}
+
+.main-content {
+  flex: 1; /* Take the remaining width */
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.2); /* Shadow on the right side */
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height */
+  overflow: hidden; /* Prevent scroll */
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #ffffff; /* White background */
+  border-bottom: 1px solid #dee2e6; /* Light gray border */
+}
+
+.dashboard-header h1 {
+  font-size: 1.8rem; /* Larger title size */
+  color: #343a40; /* Dark text color */
+}
+
+.logout-button {
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem; /* Increased font size */
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.dashboard-content {
+  flex: 1; /* Take remaining space in the column */
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray for content area */
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Enable scrolling for long content */
+}
+
+.dashboard-content h2 {
+  margin: 0;
+  color: #495057; /* Dark gray */
+  font-size: 1.5rem; /* Increased font size */
+  margin-bottom: 10px; /* Space below the header */
+}
+
+.dashboard-content p {
+  font-size: 1rem; /* Regular font size for content */
+  line-height: 1.5; /* Line height for readability */
+}
+.sidebar-head{
+  color: white;
+}
+
+/* AccountManage.css */
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Merge borders */
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6; /* Light gray border */
+}
+
+th {
+  background-color: #e9ecef; /* Light gray background for header */
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Light gray on row hover */
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* index.css */
+body {
+  background-color: #f7fafc; /* Light gray background */
+}
+
+
+.card {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 33%;
+}
+
+.card h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  color: #4a5568; /* Dark gray */
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select {
+  border: 1px solid #cbd5e0; /* Light gray border */
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #3182ce; /* Blue border on focus */
+  box-shadow: 0 0 0 1px #3182ce; /* Blue outline */
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #3182ce; /* Blue background */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #2b6cb0; /* Darker blue on hover */
+}
+.tab-buttons{
+  display: flex;
+  margin-bottom: 25px;
+  gap: 30px;
+}

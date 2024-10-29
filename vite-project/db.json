@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": "e774",
+      "name": "seller",
+      "email": "seller@gmail.com",
+      "password": "hgjk",
+      "role": "seller"
+    },
+    {
+      "id": "3505",
+      "name": "customer",
+      "email": "customer@gmail.com",
+      "password": "hgjk",
+      "role": "customer"
+    },
+    {
+      "id": "948e",
+      "name": "momina",
+      "email": "momin@gmail.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": "536f",
+      "name": "jhangir",
+      "email": "seller@gmail.com",
+      "password": "546",
+      "role": "seller"
+    },
+    {
+      "id": "4f46",
+      "name": "muhammad hussain",
+      "email": "hussain@gmail.com",
+      "password": "987",
+      "role": "customer"
+    },
+    {
+      "id": "6cc0",
+      "name": "amna",
+      "email": "amna@gmail.com",
+      "password": "987",
+      "role": "seller"
+    },
+    {
+      "id": "4a86",
+      "name": "customer",
+      "email": "cutomer@gmail.com",
+      "password": "734",
+      "role": "customer"
+    }
+  ],
+  "sellerAccount": [
+    {
+      "id": "7377",
+      "companyName": "chugtai",
+      "address": "vitoria ",
+      "financials": "anything",
+      "status": "approved",
+      "products": [
+        {
+          "productid": "2024-10-29T07:26:32.558Z",
+          "productName": "injections",
+          "price": "20",
+          "quantity": "10",
+          "attribute": "3"
+        }
+      ]
+    },
+    {
+      "id": "bd48",
+      "companyName": "enigmatix",
+      "address": "new settlite park",
+      "financials": "anything",
+      "status": "rejected",
+      "products": [
+        {
+          "productid": "2024-10-29T07:27:02.116Z",
+          "productName": "computer",
+          "price": "3000",
+          "quantity": "1",
+          "attribute": "2"
+        }
+      ]
+    }
+  ]
+}
